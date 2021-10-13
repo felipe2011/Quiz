@@ -1,0 +1,10 @@
+.buttonDefault{
+  width: 250px;
+  margin-top: 15px !important;
+  background-color: #7159C1 !important;
+  color: white !important;
+}
+
+.buttonDefault:hover{
+  background-color: #7159 !important;
+}

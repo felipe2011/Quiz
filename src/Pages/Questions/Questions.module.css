@@ -1,0 +1,37 @@
+.root {
+  display: flexbox;
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+.questions {
+  font-size: 1.5rem;
+}
+
+.info {
+  font-size: 0.75rem;
+  text-transform: none;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+.optionContainer{
+  width: 70%;
+}
+
+.btnOption {
+  width: 40%;
+  height: 70px;
+  margin: 0 0 16px 16px !important;
+  color: white !important;
+  background-color: #7159C1 !important;
+}
+
+.btnOption:hover {
+  background-color: #7159 !important;
+}
+
+.title {
+  text-align: left;
+}

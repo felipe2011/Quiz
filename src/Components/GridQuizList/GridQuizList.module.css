@@ -1,0 +1,36 @@
+.containerQuiz {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Quiz {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #f3f3f3 !important;
+  text-align: left;
+  padding: 25px 10px 25px 10px;
+  cursor: pointer;
+}
+
+.Quiz:hover {
+  background-color: #e3e3e3 !important;
+}
+
+.correctAnswers {
+  background-color: darkolivegreen !important;
+  color: white !important;
+  margin-right: 10px;
+}
+
+.inCorrectAnswers {
+  background-color: darkred !important;
+  color: white !important;
+  margin-right: 10px;
+}
+
+.linkDefault{
+  text-decoration: none;
+}

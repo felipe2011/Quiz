@@ -1,0 +1,70 @@
+.root {
+  display: flexbox;
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+.buttonDefault{
+  width: 150px;
+  margin: auto !important;
+  margin-top: 15px !important;
+  background-color: #7159C1 !important;
+  color: white !important;
+}
+
+.buttonDefault:hover{
+  background-color: #7159 !important;
+}
+
+.buttonDefault:disabled{
+  background-color: grey !important;
+}
+
+.buttonCancel{
+  width: 150px;
+  margin: auto !important;
+  margin-right: 15px !important;
+  margin-top: 15px !important;
+  background-color: cornflowerblue !important;
+  color: white !important;
+}
+
+.buttonCancel:hover{
+  background-color: #7159 !important;
+}
+
+.buttonCancel:disabled{
+  background-color: grey !important;
+}
+
+p {
+  font-size: 1.2rem;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.inputNumber{
+  width: 100% !important;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-color: #cbc4e2;
+  padding-left: 8px;
+}
+
+.inputNumber:hover {
+  border-color: #7159;
+}
+
+.inputNumber:focus {
+  border-color: #7159;
+}
+
+.error {
+  margin: 3px 0 0 0;
+  padding: 0;
+  color: red;
+  text-align: left;
+  font-size: 0.7rem;
+}

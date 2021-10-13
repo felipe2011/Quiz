@@ -1,0 +1,63 @@
+.containerReport {
+  width: 95%;
+  margin: auto;
+  text-align: center !important;
+  margin-top: 20px;
+}
+
+.correctAnswers {
+  background-color: darkolivegreen !important;
+  color: white !important;
+  margin-right: 10px;
+}
+
+.inCorrectAnswers {
+  background-color: darkred !important;
+  color: white !important;
+  margin-right: 10px;
+}
+
+.report {
+  margin-top: 20px;
+  min-height: 200px;
+  background-color: #f3f3f3 !important;
+  text-align: left;
+  padding: 10px;
+}
+
+.report:hover {
+  background-color: #e3e3e3 !important;
+}
+
+.title {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.optionContainer{
+  width: 100%;
+}
+
+.btnOption {
+  width: 40%;
+  height: 70px;
+  margin: 0 16px 16px 0 !important;
+  color: white !important;
+  background-color: #7159C1 !important;
+}
+
+.btnOptionCorrect {
+  width: 40%;
+  height: 70px;
+  margin: 0 16px 16px 0 !important;
+  color: white !important;
+  background-color: darkolivegreen !important;
+}
+
+.btnOptionIncorrect {
+  width: 40%;
+  height: 70px;
+  margin: 0 16px 16px 0 !important;
+  color: white !important;
+  background-color: darkred !important;
+}

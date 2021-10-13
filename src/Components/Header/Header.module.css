@@ -1,0 +1,41 @@
+.root {
+  padding: "50px 100px";
+  z-index: 999;
+  position: "absolute";
+}
+
+.card {
+  display: flex;
+  padding: 25px;
+  margin-top: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 2rem;
+  color: black;
+}
+
+.linkReports {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.linkReports:hover {
+  color: #7159C1;
+}
+
+.txtReports {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.quiz {
+  cursor: pointer !important;
+}
+
+.linkQuiz {
+  text-decoration: none;
+}

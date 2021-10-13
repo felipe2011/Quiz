@@ -1,0 +1,26 @@
+.root {
+  display: flexbox;
+  margin-top: 20px;
+  min-height: 300px;
+  text-align: center;
+}
+
+.buttonDefault{
+  width: 250px;
+  margin-top: 15px !important;
+  background-color: #7159C1 !important;
+  color: white !important;
+}
+
+.buttonDefault:hover{
+  background-color: #7159 !important;
+}
+
+.buttonDefault:disabled{
+  background-color: grey !important;
+}
+
+.linkDefault {
+  text-decoration: none;
+  color: white !important;
+}

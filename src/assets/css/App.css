@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+  color: #333;
+  background-color: #E0E0E0;
+}
+
+.background {
+  position: "absolute";
+  height: 200px;
+  width: "100%";
+  top: 0;
+  background: #7159C1;
+}
+
+.conteiner {
+  display: "flex";
+  width: 70%;
+  margin: auto;
+}
